@@ -56,6 +56,22 @@
   transition: background-color 0.2s;
 }
 
-.startButton:hover {
+.startButton:not(:disabled):hover {
   background: var(--blue-dark);
+}
+
+.endButton {
+  background: var(--white);
+  color: var(--title);
+}
+
+.endButton:hover {
+  background: var(--red);
+  color: var(--white);
+}
+
+.startButton:disabled {
+  background: var(--white);
+  color: var(--test);
+  cursor: not-allowed;
 }
