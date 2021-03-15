@@ -1,14 +1,14 @@
 .container {
   height: 90%;
   background: var(--white);
-  border-radius: 0 0 60px rgba(69, 158, 185, 0.05);
+  border-radius: 70px;
   padding: 1.5rem 2rem;
 
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-
+  padding-bottom: 12vh;
   text-align: center;
 }
 

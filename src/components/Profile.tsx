@@ -7,7 +7,7 @@ function Perfil() {
   return (
     <div className={styles.profileContainer}>
       <img
-        src="https://github.com/BryanAzevedo.png"
+        src="https://github.com/BryanDamasceno.png"
         alt="Imagem de Perfil"
       ></img>
 
